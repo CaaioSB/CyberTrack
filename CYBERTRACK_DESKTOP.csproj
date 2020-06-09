@@ -35,9 +35,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FontAwesome.Sharp, Version=5.12.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\CaaioSB\uiCSB\bin\Debug\FontAwesome.Sharp.dll</HintPath>
+    <Reference Include="CSBComponents">
+      <HintPath>..\CaaioSB\uiCSB\bin\Release\CSBComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp">
+      <HintPath>..\CaaioSB\uiCSB\bin\Release\FontAwesome.Sharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll</HintPath>
@@ -114,12 +116,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CyberTrack.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CaaioSB\uiCSB\CSBComponents.csproj">
-      <Project>{3aa38f95-836e-456b-ac6d-856f88516056}</Project>
-      <Name>CSBComponents</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="img\correios.png" />
